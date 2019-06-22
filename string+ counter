@@ -1,0 +1,26 @@
+כתבו תוכנית אשר קולטת מחרוזת ומציגה את מספר הפעמים בה הופיעה האות A במחרוזת
+
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		string name; // הצגת מחרוזת 
+		Console.Write("enter your name :");
+	name = Console.ReadLine();
+		//הוראת קלט+ הקצאת מקום בזיכרון
+		
+		int counter=0;
+		for ( int x=0; x < name.Length;x++)
+		{
+			if (name [x]== 'a')
+			{
+				counter++;
+			}
+		}
+		
+		Console.WriteLine("total a: {0}",counter); // פלט
+	}
+}
