@@ -1,0 +1,20 @@
+מטרת הבעיה ופתרונה: הצגת קלט של מחרוזת.
+פתחו וישמו אלגוריתם שיקבל כקלט את שמכם ויציג :is name Your ומיד אחר כך את השם
+שנקלט. 
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		string name; // הצגת מחרוזת 
+		Console.Write("enter yout name :");
+	name = Console.ReadLine();
+		//הוראת קלט+ הקצאת מקום בזיכרון
+		
+		Console.WriteLine("your name is: {0}",name); // פלט
+	}
+}
+
+
