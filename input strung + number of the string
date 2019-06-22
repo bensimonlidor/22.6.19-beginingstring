@@ -1,0 +1,17 @@
+כתבו תוכנית אשר קולטת מחרוזת ומציגה את מספר התווים בה
+
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		string name; // הצגת מחרוזת 
+		Console.Write("enter your name :");
+	name = Console.ReadLine();
+		//הוראת קלט+ הקצאת מקום בזיכרון
+		
+		Console.WriteLine("your name is: {0}",name.Length); // פלט
+	}
+}
